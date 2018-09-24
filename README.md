@@ -55,7 +55,7 @@ The css will stored into assets/css/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/abdhannan/wordpress-themes-starter/blob/master/LICENSE) file for details
 
 
 # Have fun :)
