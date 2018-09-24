@@ -1,17 +1,62 @@
-<h1>abhan-wp-bootstrap</h1>
-<h2>wordpress bootstrap starter themes</h2>
+# template-starter
+Wordpress Themes starter to built wordpress themes based on sass structure
 
-<p>
-Totally free!
-</p>
+## Getting started
+Save your times.
+This template starter for you who work with Converting HTML to wordpress themes, the directory already included using the best way (i think :) ).
 
-<h2>Whats included?</h2>
+### Prerequisites
+You need this installed on your computer
+* [NPM](https://npm.org)
+* [GULP](https://gulpjs.com)
 
-<ul>
-<li>Jquery</li>
-<li>Bootstrap</li>
-<li>Bootstrap nav walker</li>
-<li>Simple customizer</li>
-<li>Normalize</li>
-<li>all required general feature</li>
-</ul>
+### Installing
+
+Clone this repo, open terminal or CMD and place to the right directory and run the following command.
+
+```
+npm install
+```
+
+You will see new directory called node_modules
+
+Make sure all package installed include gulp, if not do this command:
+```
+npm install -g gulp
+```
+
+If you failed install all package automatically, please install one by one using npm.
+
+### Running the tests
+
+This starter-template included gulp-sass, to compile sass (.scss file) to .css file, run the following command:
+
+To wacth sass files changes and run compiler automatically
+```
+gulp-watch
+```
+
+Run/compile scss to css manually
+```
+gulp process-css
+```
+The file created:
+* main.css
+* main.min.css
+* main.min.css.map
+
+The css will stored into assets/css/
+
+## Authors
+
+* **Abd Hannan** - *Initial work* - [Abd Hannan](https://github.com/abdhannan)
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+# Have fun :)
+Dibuat dengan cinta dari Madura, Indonesia :) 
