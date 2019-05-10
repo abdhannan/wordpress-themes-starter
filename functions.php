@@ -137,7 +137,7 @@ function abhan_scripts() {
 	wp_enqueue_style( 'abhan-style', get_stylesheet_uri() );
 
 	// main.css
-	wp_enqueue_style( 'main-css', get_stylesheet_directory_uri() . 'assets/css/main.css', array(), null, true );
+	wp_enqueue_style( 'main-css', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), null, true );
 
 	wp_enqueue_script( 'abhan-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
