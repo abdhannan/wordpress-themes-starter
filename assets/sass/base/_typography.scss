@@ -4,47 +4,31 @@
  *
  */
 
-$primary-font: roman;
-$secondary-font: lato;
-
-h1
-{
-	// font-size: 50px;
-	font-size: 1em;
+h1 {
+	font-size: map-get($typography , h1 );
 }
 
-h2
-{
-	// font-size: 44px;
-	font-size: 0.88em;
+h2 {
+	font-size: map-get($typography, h2 );
 }
 
-h3
-{
-	// font-size: 38px;
-	font-size: 0.76em;
+h3 {
+	font-size: map-get($typography, h3 );
 }
 
-h4
-{
-	// font-size: 32px;
-	font-size: 0.64em;
+h4 {
+	font-size: map-get($typography, h4 );
 }
 
-h5
-{
-	// font-size: 26px;
-	font-size: 0.52em;
+h5 {
+	font-size: map-get($typography, h5 );
 }
 
-h6
-{
-	// font-size: 21px;
-	font-size: 0.42em;
+h6 {
+	font-size: map-get($typography, h6 );
 }
 
-p
-{
-	// font-size: 16px;
-	font-size: 0.32em;
+p {
+	font-size: map-get($typography, p );
+	margin-bottom: 15px;
 }

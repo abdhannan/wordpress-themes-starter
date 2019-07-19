@@ -7,3 +7,24 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px
 ) !default;
+
+
+
+
+
+/* TYPOGRAPHY */
+
+$typography: (
+    h1: 82px,
+    h2: 64px,
+    h3: 46px,
+    h4: 32px,
+    h5: 22px,
+    h6: 18px,
+    p : 16px
+);
+
+$fonts: (
+    primary-font: Roboto,
+    secondary-font: Lato
+);
