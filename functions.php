@@ -7,6 +7,8 @@
  * @package abhan
  */
 
+ define('THEMES_VERSION', '0.1');
+
 if ( ! function_exists( 'abhan_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -128,16 +130,11 @@ function abhan_scripts() {
 	 */
 	wp_enqueue_script('bootstrap-js', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.js', array(), null, true);
 
-	/**
-	 * Bootstrap css
-	 */
-	wp_enqueue_style( 'bootstrap-css', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.css');
-
 	// style.css
 	wp_enqueue_style( 'abhan-style', get_stylesheet_uri() );
 
 	// main.css
-	wp_enqueue_style( 'main-css', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), null, true );
+	wp_enqueue_style( 'main-css', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), THEMES_VERSION, 'all' );
 
 	wp_enqueue_script( 'abhan-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

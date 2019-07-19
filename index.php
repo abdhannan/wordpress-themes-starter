@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area hannan">
 		<main id="main" class="site-main">
 
 		<?php
@@ -47,6 +47,8 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif; ?>
+
+		<a href="#" class="btn btn-primary">YESSS</a>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
