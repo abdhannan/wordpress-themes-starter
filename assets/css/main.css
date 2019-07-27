@@ -461,7 +461,7 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } }
+      max-width: 1240px; } }
 
 .container-fluid {
   width: 100%;
@@ -7093,7 +7093,7 @@ p {
 
 #content {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1240px;
   height: auto;
   position: relative;
   overflow: hidden;
@@ -7109,3 +7109,11 @@ p {
   @media (max-width: 767.98px) {
     #content {
       max-width: 540px; } }
+
+#primary {
+  width: 58%;
+  float: left; }
+
+#secondary {
+  width: 36%;
+  float: right; }
