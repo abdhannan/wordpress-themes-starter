@@ -53,3 +53,10 @@ function abhan_customize_preview_js() {
 	wp_enqueue_script( 'abhan-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'abhan_customize_preview_js' );
+
+
+/**
+ * Customizer
+ */
+
+ require get_template_directory() . '/inc/customizer/copyright.php';

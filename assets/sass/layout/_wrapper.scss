@@ -1,0 +1,22 @@
+#content {
+    width: 100%;
+    max-width: map-get($container-max-widths , xl );
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @include media-breakpoint-down(lg) {
+        max-width: map-get($container-max-widths, lg );
+    }
+
+    @include media-breakpoint-down(md) {
+        max-width: map-get($container-max-widths, md );
+    }
+
+    @include media-breakpoint-down(sm) {
+        max-width: map-get($container-max-widths, sm );
+    }
+}
