@@ -8,15 +8,34 @@ $container-max-widths: (
   xl: 1240px
 ) !default;
 
+/**
+* Use bootstrap media query mixin for responsive
+* EX:
+* @include media-breakpoint-down(xs) {}
+*
+*/
+
+
 
 $content-width: (
-  content: 58%,
-  sidebar: 36%
+  content: 70%,
+  sidebar: 25%
 ) !default;
 
 
 
 /* TYPOGRAPHY */
+
+$font-stack: 'Open Sans', sans-serif;
+$font-secondary: 'Crimson Text', serif;
+
+
+body, html, p, span, html, td, tr, li, a, label {
+  font-family: $font-stack;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-secondary;
+}
 
 $typography: (
     h1: 82px,
@@ -28,7 +47,43 @@ $typography: (
     p : 16px
 );
 
-$fonts: (
-    primary-font: Roboto,
-    secondary-font: Lato
+
+h1 {
+	font-size: map-get($typography , h1 );
+}
+
+h2 {
+	font-size: map-get($typography, h2 );
+}
+
+h3 {
+	font-size: map-get($typography, h3 );
+}
+
+h4 {
+	font-size: map-get($typography, h4 );
+}
+
+h5 {
+	font-size: map-get($typography, h5 );
+}
+
+h6 {
+	font-size: map-get($typography, h6 );
+}
+
+p {
+	font-size: map-get($typography, p );
+	margin-bottom: 15px;
+}
+
+
+/**
+* Color
+*/
+
+$color: (
+  primary: #1d1d1d,
+  secondary: #ffffff,
+  link: #d4a259
 );

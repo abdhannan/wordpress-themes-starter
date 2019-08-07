@@ -1,11 +1,12 @@
 // Helpers our style
+@import "base/main";
 @import "helpers/main";
 
 // Vendor
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../library/bootstrap/scss/bootstrap.scss";
 
-@import "base/main";
+
 @import "layout/main";
 @import "pages/main";
 @import "components/main";
-
+@import "sections/main";

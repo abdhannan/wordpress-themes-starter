@@ -126,6 +126,11 @@ function abhan_scripts() {
 	wp_enqueue_script('jquery', get_stylesheet_directory_uri() . '/node_modules/jquery/dist/jquery.js', array(), null, true);
 	
 	/**
+	 * Main js
+	 */
+	wp_enqueue_script( 'main-js', get_stylesheet_directory_uri() .'/assets/js/main.js', array(), null, true );
+
+	/**
 	 *	Bootstrap js
 	 */
 	wp_enqueue_script('bootstrap-js', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.js', array(), null, true);
