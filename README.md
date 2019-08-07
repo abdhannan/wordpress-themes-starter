@@ -36,6 +36,11 @@ To wacth sass files changes and run compiler automatically
 gulp-watch
 ```
 
+### Sass media query and variables
+
+The media Query for css, using boottsrap media query, [Learn more here](https://eddyerburgh.me/use-bootstrap-4-media-query-mixins).
+And you can set, edit and add variables on assets/sass/helpers/variables.scss
+
 Run/compile scss to css manually
 ```
 gulp process-css
